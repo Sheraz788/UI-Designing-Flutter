@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_designing/Messages.dart';
 import 'package:flutter_ui_designing/Profile.dart';
+import 'package:flutter_ui_designing/MyApp.dart';
 
 void main() {
   runApp(
     MaterialApp(
-      home: Home(),
+      home: MyApp(),
     )
   );
 }
